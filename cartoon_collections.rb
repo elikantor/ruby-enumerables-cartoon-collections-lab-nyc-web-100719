@@ -30,7 +30,7 @@ def find_the_cheese(array)
   i = 0
     array.each do |ele|
       if ele == cheese_types[i]
-        return ele
+        return cheese_types[i]
       end
     i += 1  
     end
