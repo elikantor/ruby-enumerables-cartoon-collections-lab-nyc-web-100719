@@ -15,7 +15,15 @@ def summon_captain_planet(planeteer_calls)
   return newarr
 end
 
-def long_planeteer_calls
+def long_planeteer_calls(array)
+  
+  array.any? do |ele|
+    if ele.length >= 4
+      return true 
+    end
+  end
+  
+  return false
   
 end
 
