@@ -9,7 +9,7 @@ def summon_captain_planet(planeteer_calls)
   newarr = []
   
   planeteer_calls.map do |ele|
-    newarr << "#{ele}!"
+    newarr << "#{ele}!".capitalize
   end
   
   print newarr
