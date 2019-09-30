@@ -6,10 +6,10 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  newarry = []
+  newarr = []
   
   planeteer_calls.map do |ele|
-    newarr << "ele!"
+    newarr << "#{ele}!"
   end
   
   print newarr
