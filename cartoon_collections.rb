@@ -12,7 +12,6 @@ def summon_captain_planet(planeteer_calls)
     newarr << "#{ele}!".capitalize
   end
   
-  print newarr
 end
 
 def long_planeteer_calls
