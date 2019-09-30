@@ -29,10 +29,14 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
     array.each do |ele|
-      return true
+      i = 0
+      
+      while i < array.length
+        if ele == cheese_types[i]
+          return ele
+        end
+        i += 1
       end
-  
     end
-  
   return nil
 end
